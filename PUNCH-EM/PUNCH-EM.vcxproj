@@ -112,7 +112,7 @@
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy "$(SolutionDir)bin" "$(TargetDir)" /Y /E
+      <Command>xcopy "$(SolutionDir)sfml3-dll-files" "$(TargetDir)" /Y /E
 
 xcopy "$(SolutionDir)Assets" "$(TargetDir)Assets\" /Y /E</Command>
     </PostBuildEvent>
@@ -135,7 +135,7 @@ xcopy "$(SolutionDir)Assets" "$(TargetDir)Assets\" /Y /E</Command>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy "$(SolutionDir)bin" "$(TargetDir)" /Y /E
+      <Command>xcopy "$(SolutionDir)sfml3-dll-files" "$(TargetDir)" /Y /E
 
 xcopy "$(SolutionDir)Assets" "$(TargetDir)Assets\" /Y /E</Command>
     </PostBuildEvent>
