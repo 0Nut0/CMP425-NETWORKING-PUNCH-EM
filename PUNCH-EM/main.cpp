@@ -1,8 +1,11 @@
 #include <iostream>
 
-//entry point
-int main() 
+int main()
 {
-	std::printf("Hello World");
+	int a = 0;
+	int b = 1;
+
+	int c = a + b;
+
 	return 0;
 }
